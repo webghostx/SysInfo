@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <title>SysInfo mit NeutralinoJs</title>
+  <link rel="stylesheet" href="/assets/app.css">
+</head>
+
+<body>
+  <header class="jumbotron">
+    <h1>SysInfo-App: System-Imformationen mit NeutralinoJs</h1>
+    <p class="text-right text-muted">Eine kleine Beispiel-Anwendung mit dem Cross-Plattform-Framework NeutralinoJs
+    </p>
+  </header>
+
+  <main class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="inner">
+          <div id="loader">
+            <div class="inner"></div>
+          </div>
+          <h3>Ram Auslastung</h3>
+          <figure>
+            <div id="ram-percent">
+              <div></div>
+              <span></span>
+            </div>
+            <figcaption>
+              <small>
+                <strong><span id="ram-used">n/a</span> MB</strong> von
+                total
+                <span id="ram-total">n/a</span> MB Arbeitspeicher
+                belegt
+              </small>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="inner">
+          <h3>System</h3>
+          <div id="systeminfo"></div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="inner">
+          <h3>Einstellung</h3>
+          <form>
+            <label>Ram-Analyse Interval in ms</label>
+            <input id="interval" type="number" min="100" max="5000" step="100" value="" />
+            <button id="save-interval" class="btn btn-secondary">speichern</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container text-center">
+    <div class="row">
+      <div class="col-lg-12">
+        <p class="text-muted">_</p>
+      </div>
+      <div class="col-lg-12">
+        <p class="text-muted">Informationen über
+          <a href="https://usysto.net/neutralino-js-leichtgewichtige-cross-plattform-desktop-apps_1124"
+            target="_blank">NeutralinoJs</a></a>. Tutorial auf
+          <a href="https://usysto.net/?p=1153" target="_blank">usysto.net</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+<script src="/neutralino.js"></script>
+<script src="/assets/app.js"></script>
+
+</html>

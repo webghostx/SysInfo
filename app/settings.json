@@ -1,0 +1,19 @@
+{
+  "appname": "SysInfo",
+  "appport": "0",
+  "url": "/",
+  "mode": "window",
+  "window": {
+    "title": "SysInfo mit NeutralinoJs",
+    "width": "1200",
+    "height": "800",
+    "fullscreen": false,
+    "alwaysontop": false,
+    "iconfile": "neutralino.png",
+    "enableinspector": false,
+    "borderlesswindow": false
+  },
+  "globals": {
+    "APP_VERSION": "0.1.0"
+  }
+}
