@@ -1,8 +1,25 @@
-# SysInfo - Einsteiger Tutorial für NeutralinoJs
+# SysInfo App - Tutorial mit NeutralinoJs
 
-Ein einstieg in das leichtgewichtige Cross-Plattform-Framework für Desktop-Apps.
+Das vollständige Tutorial für den Einstieg in die Welt der Cross-Plattform Desktop-Apps mit [NeutralinoJs](https://github.com/neutralinojs/neutralinojs) gibt es auf usysto.net : [NeutralinoJs Tutorial: Erste Schritte mit dem Cross-Plattform-Framework für Desktop-Apps](https://usysto.net/neutralinojs-tutorial-erste-schritte-mit-dem-cross-plattform-framework-fur-desktop-apps_1153)
 
-## Get started
+Dies hier ist der Entwicklungs-Code. Man kann entweder dem [Tutorial](https://usysto.net/neutralinojs-tutorial-erste-schritte-mit-dem-cross-plattform-framework-fur-desktop-apps_1153) folgen und alles Schritt für Schritt durchgehen, oder man kann direkt den Entwicklungsstand clonen. Die fertige App für Windows, Mac und Linux gibts unter [Realeases](https://github.com/webghostx/SysInfo/releases).
 
-Das zugehörige Tutorial auf: [NeutralinoJs Tutorial: Erste Schritte mit dem Cross-Plattform-Framework für Desktop-Apps](https://usysto.net/neutralinojs-tutorial-erste-schritte-mit-dem-cross-plattform-framework-fur-desktop-apps_1153)
+# Clone und los
 
+Als Systemvoraussetzungen sind eigentlich nur node.js und npm zu nennen. Treten dennoch Probleme auf, bitte den Informationen von [NeutralinoJs](https://github.com/neutralinojs/neutralinojs) folgen.
+
+Repository clonen:
+
+    git clone https://github.com/webghostx/SysInfo.git
+
+Abhängikeiten installieren:
+
+    npm install
+
+Empfolen wird noch die neu-cli von NeutralinoJs:
+
+    npm install -g @neutralinojs/neu
+
+...und los gehts.
+
+Weiter Informationen im erwähnten Tutorial oder auf folgender Seite mit weiteren hilfreichen Verweisen: [Der Einstieg in Neutralino js](https://usysto.net/neutralino-js-leichtgewichtige-cross-plattform-desktop-apps_1124#Der_Einstieg_in_Neutralino_js)
