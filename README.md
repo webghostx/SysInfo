@@ -16,7 +16,7 @@ Abhängikeiten installieren:
 
     npm install
 
-Empfolen wird noch die neu-cli von NeutralinoJs:
+Empfolen wird noch die [neu-cli](https://github.com/neutralinojs/neutralinojs-cli) von NeutralinoJs:
 
     npm install -g @neutralinojs/neu
 
